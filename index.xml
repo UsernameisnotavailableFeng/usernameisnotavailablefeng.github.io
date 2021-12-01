@@ -6,7 +6,19 @@
     <description>Recent content on 冯子言的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
-    <lastBuildDate>Fri, 19 Nov 2021 15:23:22 +0800</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Dec 2021 13:58:24 +0800</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>第三篇博客</title>
+      <link>http://example.org/posts/%E7%AC%AC%E4%B8%89%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Wed, 01 Dec 2021 13:58:24 +0800</pubDate>
+      
+      <guid>http://example.org/posts/%E7%AC%AC%E4%B8%89%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
+      <description>Collection体系与集合 1 Collection继承Iterable接口
+ Iterable接口是可迭代的，可变例的所有继承这个接口的集合都可以用迭代器迭代。   Collection c = new Arraylist(); c.add(&amp;quot;abc&amp;quot;); c.add(&amp;quot;def&amp;quot;); c.add(&amp;quot;100&amp;quot;); c.add(&amp;quot;new Object&amp;quot;); Iteralor it = c.Iteralor; //获取集合对象的迭代器对象 Iteralor。 while(it.hasNext()) { //通过以上获取的迭代器对象开始迭代，遍历集合 Object obj = it.next(); } 2 List集合储存元素特点
+ 有序可重复，储存的元素有下标。 有序是说存进去是这个顺序，取出来还是这个顺序。这里的顺序不是按照大小排序。 有序是因为List集合都有下标，下标从0开始，以1递增。 ArrayList集合底层采用了数组这种数据结构，是非线程安全的。 LinkedList集合底层采用了双向链表数据结构。 Vector集合底层采用了数组这种数据结构，是线程安全的。所有的方法都有synchronized关键字修饰所有线程安全，但是效率较低，现在有其他方案所以使用较少。  3 Set集合的元素特点
+ 无序不可重复。 无序表示存进去是这个顺序，取出来就不一定是这个顺序了。 Set集合中元素没有下标，并且其中的元素还不能重复。 HashSet集合在创建对象的时候，底层实际上是创建了一个HashMap集合，向HashSet集合中储存元素，实际上是储存到HashMap集合中。 TreeSet集合实现了SortedSet。TreeSet集合在创建对象的时候，底层实际上是创建了一个TreeMap集合，向TreeSet集合中储存元素，实际上是储存到TreeMap集合中。  </description>
+    </item>
+    
     <item>
       <title>第二篇博客</title>
       <link>http://example.org/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
